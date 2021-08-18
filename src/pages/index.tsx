@@ -5,7 +5,6 @@ type Props = {
 }
 
 const test = ''
-//npx --no-install lint-staged
 
 export default function Home({ title = 'React Avançado' }: Props) {
   return (
