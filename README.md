@@ -1,34 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#### Testes
+#### Tipos de teste:
+    - Testes unitários
+        - Geralmente aplicados em métodos isolados
+        - Espera-se um resultado do ponto de vista do desenvolvedor
+    - Testes funcionais
+        - Geralmente aplicado em um conjunto de métodos, ou em classes completas.
+        - Espera-se um resultado do ponto de vista do usuário.
 
-## Getting Started
+#### Método de teste:
+    - Testes unitários
+        - Escolhe um componente
+        - Desacople suas features
+        - Cria um mock para testar cada feature
+    - Tstes funcionais
+        - Escolha um fluxo
+        - Simule o usuário via script
+#### TDD (Test-driven development)
+    - Escreva o test -> faz o test passar -> refatora o fluxo ou método. (Se oriente pelos tests)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+nvm ou asdf -> versionador de node
