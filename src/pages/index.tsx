@@ -1,10 +1,9 @@
 import Head from 'next/head'
+import Main from '../components/Main'
 
 type Props = {
   title: string
 }
-
-const test = ''
 
 export default function Home({ title = 'React Avançado' }: Props) {
   return (
@@ -17,6 +16,7 @@ export default function Home({ title = 'React Avançado' }: Props) {
 
       <main>
         <h2> Body </h2>
+        <Main />
       </main>
 
       <footer>
